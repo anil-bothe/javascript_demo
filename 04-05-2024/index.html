@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="turnOnBulb()">On</button>
+    <img src="pic_bulboff.gif" alt="">
+    <button onclick="turnOffBulb()">Off</button>
+
+    <script>
+        var img = document.querySelector("img");
+
+        $("img").attr("src", 'path');
+
+        function turnOnBulb() {
+            img.setAttribute("src", "pic_bulbon.gif")
+        }
+        function turnOffBulb() {
+            img.setAttribute("src", "pic_bulboff.gif")
+        }
+
+    </script>
+</body>
+</html>
