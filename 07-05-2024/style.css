@@ -1,0 +1,31 @@
+:root {
+    --dark-text: #fff;
+    --light-text: #000;
+    --dark-bg: #000;
+    --light-bg: #c8c8c8;
+}
+
+.btn-group {
+    padding: 20px 0;
+}
+
+.light-btn, .dark-btn {
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--dark-text);
+    background-color: rgb(33, 86, 185);
+    border: none;
+    outline: none;
+}
+
+.light-btn:hover, .dark-btn:hover {
+    background-color: rgb(0, 46, 131);
+}
+
+.card {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+    padding: 50px;
+}
